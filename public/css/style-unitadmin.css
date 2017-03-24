@@ -1,0 +1,127 @@
+#crimson-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#crimson-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(105, 34, 37, 1);
+    border-bottom-width: 0px;
+}
+#crimson-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#crimson-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#crimson-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(194, 107, 107, 1);
+}
+#crimson-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#crimson-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#crimson-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(186, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#crimson-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+#crimson-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#crimson-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+#crimson-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#crimson-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#crimson-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #692225;
+}
+
+.panel-heading {
+
+    padding: 5px 15px;
+
+}
+
+
+
+.panel-footer {
+
+    padding: 1px 15px;
+
+	color: #A0A0A0;
+
+}
+
+
+
+.profile-img {
+
+	width: 60%;
+
+	height: 25%;
+
+	margin: 0 auto 10px;
+
+	display: block;
+
+}
+
+
+@media (min-width: 768px)
+
+{
+ 
+
+body
+
+{
+
+  font-family: Segoe UI, sans-serif;
+
+  background-color: #85232b;
+ 
+/*
+ background: url(../img/bg-unitadmin.png) no-repeat center center fixed;
+*/
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+}
+
+
+
+} 
+
+@media only screen and (max-width: 767px)
+
+{
+  body
+
+{
+
+  font-family: Segoe UI, sans-serif;
+
+ 
+
+background: none;
+background-color: #7c2226;
+
+}
+
+}
+
+.label_white
+
+{
+
+  color:white;
+
+}
+
+
+

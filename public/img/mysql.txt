@@ -1,0 +1,321 @@
+170313 17:07:36 [Warning] IP address '222.89.137.99' could not be resolved: Name or service not known
+170313 22:30:13 [Warning] No argument was provided to --log-bin and neither --log-basename or --log-bin-index where used;  This may cause repliction to break when this server acts as a master and has its hostname changed! Please use '--log-basename=server1' or '--log-bin=mysqld-bin' to avoid this problem.
+2017-03-13 22:30:13 7f9b0dae0740 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+170313 22:30:13 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170313 22:30:13 [Note] InnoDB: The InnoDB memory heap is disabled
+170313 22:30:13 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170313 22:30:13 [Note] InnoDB: Memory barrier is not used
+170313 22:30:13 [Note] InnoDB: Compressed tables use zlib 1.2.8
+170313 22:30:13 [Note] InnoDB: Using Linux native AIO
+170313 22:30:13 [Note] InnoDB: Using CPU crc32 instructions
+170313 22:30:13 [Note] InnoDB: Initializing buffer pool, size = 3.0G
+170313 22:30:14 [Note] InnoDB: Completed initialization of buffer pool
+170313 22:30:14 [Note] InnoDB: Highest supported file format is Barracuda.
+170313 22:30:14 [Note] InnoDB: The log sequence numbers 71315929337 and 71315929337 in ibdata files do not match the log sequence number 71391958503 in the ib_logfiles!
+170313 22:30:14 [Note] InnoDB: Database was not shutdown normally!
+170313 22:30:14 [Note] InnoDB: Starting crash recovery.
+170313 22:30:14 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170313 22:30:15 [Note] InnoDB: Restoring possible half-written data pages 
+170313 22:30:15 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 1433320, file name ./mysqld-bin.000173
+170313 22:30:15 [Note] InnoDB: 128 rollback segment(s) are active.
+170313 22:30:15 [Note] InnoDB: Waiting for purge to start
+170313 22:30:15 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-76.0 started; log sequence number 71391958503
+2017-03-13 22:30:15 7f9a222e7700 InnoDB: Loading buffer pool(s) from .//ib_buffer_pool
+170313 22:30:15 [Note] Recovering after a crash using mysqld-bin
+170313 22:30:15 [Note] Starting crash recovery...
+170313 22:30:15 [Note] Crash recovery finished.
+170313 22:30:15 [Note] Server socket created on IP: '0.0.0.0'.
+170313 22:30:15 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.23-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Source distribution
+2017-03-13 22:30:18 7f9a222e7700 InnoDB: Buffer pool(s) load completed at 170313 22:30:18
+170313 22:30:23 [ERROR] mysqld: Table './cpsmdb/jah_k2_items' is marked as crashed and should be repaired
+170313 22:30:23 [Warning] Checking table:   './cpsmdb/jah_k2_items'
+170313 22:30:23 [ERROR] mysqld: Table './cpsmdb/jah_k2_comments' is marked as crashed and should be repaired
+170313 22:30:23 [Warning] Checking table:   './cpsmdb/jah_k2_comments'
+170313 22:30:42 [ERROR] mysqld: Table './cpsmdb/jah_content' is marked as crashed and should be repaired
+170313 22:30:42 [Warning] Checking table:   './cpsmdb/jah_content'
+170313 22:32:09 [ERROR] mysqld: Table './cpsmdb/jah_redirect_links' is marked as crashed and should be repaired
+170313 22:32:09 [Warning] Checking table:   './cpsmdb/jah_redirect_links'
+170313 22:37:38 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170313 22:37:38 [Note] Event Scheduler: Purging the queue. 2 events
+170313 22:37:38 [Note] InnoDB: FTS optimize thread exiting.
+170313 22:37:38 [Note] InnoDB: Starting shutdown...
+2017-03-13 22:37:39 7f9a222e7700 InnoDB: Dumping buffer pool(s) to .//ib_buffer_pool
+2017-03-13 22:37:39 7f9a222e7700 InnoDB: Buffer pool(s) dump completed at 170313 22:37:39
+170313 22:37:40 [Note] InnoDB: Shutdown completed; log sequence number 71392339522
+170313 22:37:40 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170313 22:37:44 [Warning] No argument was provided to --log-bin and neither --log-basename or --log-bin-index where used;  This may cause repliction to break when this server acts as a master and has its hostname changed! Please use '--log-basename=server1' or '--log-bin=mysqld-bin' to avoid this problem.
+2017-03-13 22:37:44 7f353ddac740 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+170313 22:37:44 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170313 22:37:44 [Note] InnoDB: The InnoDB memory heap is disabled
+170313 22:37:44 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170313 22:37:44 [Note] InnoDB: Memory barrier is not used
+170313 22:37:44 [Note] InnoDB: Compressed tables use zlib 1.2.8
+170313 22:37:44 [Note] InnoDB: Using Linux native AIO
+170313 22:37:44 [Note] InnoDB: Using CPU crc32 instructions
+170313 22:37:44 [Note] InnoDB: Initializing buffer pool, size = 3.0G
+170313 22:37:45 [Note] InnoDB: Completed initialization of buffer pool
+170313 22:37:45 [Note] InnoDB: Highest supported file format is Barracuda.
+170313 22:37:45 [Note] InnoDB: 128 rollback segment(s) are active.
+170313 22:37:45 [Note] InnoDB: Waiting for purge to start
+170313 22:37:45 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-76.0 started; log sequence number 71392339522
+2017-03-13 22:37:45 7f34528e3700 InnoDB: Loading buffer pool(s) from .//ib_buffer_pool
+170313 22:37:45 [Note] Server socket created on IP: '0.0.0.0'.
+170313 22:37:45 [Warning] 'user' entry 'root@server1' ignored in --skip-name-resolve mode.
+170313 22:37:45 [Warning] 'user' entry '@server1' ignored in --skip-name-resolve mode.
+170313 22:37:45 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.23-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Source distribution
+2017-03-13 22:37:47 7f34528e3700 InnoDB: Buffer pool(s) load completed at 170313 22:37:47
+170313 22:42:27 [ERROR] mysqld: Table './cpsmdb/jah_phocadownload' is marked as crashed and should be repaired
+170313 22:42:27 [Warning] Checking table:   './cpsmdb/jah_phocadownload'
+170313 22:42:27 [ERROR] mysqld: Table './cpsmdb/jah_phocadownload_user_stat' is marked as crashed and should be repaired
+170313 22:42:27 [Warning] Checking table:   './cpsmdb/jah_phocadownload_user_stat'
+170313 22:47:48 [ERROR] mysqld: Table './cpsmdb/jah_jsecurelog' is marked as crashed and should be repaired
+170313 22:47:48 [Warning] Checking table:   './cpsmdb/jah_jsecurelog'
+170313 23:02:48 [ERROR] mysqld: Table './ela_main/result_tbl' is marked as crashed and should be repaired
+170313 23:02:48 [Warning] Checking table:   './ela_main/result_tbl'
+170313 23:11:33 [ERROR] mysqld: Table './ela_main/answer_tbl' is marked as crashed and should be repaired
+170313 23:11:33 [Warning] Checking table:   './ela_main/answer_tbl'
+170313 23:58:30 [ERROR] mysqld: Table './ebasic/personnel_tbl' is marked as crashed and should be repaired
+170313 23:58:30 [Warning] Checking table:   './ebasic/personnel_tbl'
+170313 23:58:41 [ERROR] mysqld: Table './ebasic/result_tbl' is marked as crashed and should be repaired
+170313 23:58:41 [Warning] Checking table:   './ebasic/result_tbl'
+170314  0:09:46 [ERROR] mysqld: Table './ebasic/answer_tbl' is marked as crashed and should be repaired
+170314  0:09:46 [Warning] Checking table:   './ebasic/answer_tbl'
+170314  9:02:24 [Warning] No argument was provided to --log-bin and neither --log-basename or --log-bin-index where used;  This may cause repliction to break when this server acts as a master and has its hostname changed! Please use '--log-basename=server1' or '--log-bin=mysqld-bin' to avoid this problem.
+2017-03-14 09:02:24 7f3842d15740 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+170314  9:02:24 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170314  9:02:24 [Note] InnoDB: The InnoDB memory heap is disabled
+170314  9:02:24 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170314  9:02:24 [Note] InnoDB: Memory barrier is not used
+170314  9:02:24 [Note] InnoDB: Compressed tables use zlib 1.2.8
+170314  9:02:24 [Note] InnoDB: Using Linux native AIO
+170314  9:02:24 [Note] InnoDB: Using CPU crc32 instructions
+170314  9:02:24 [Note] InnoDB: Initializing buffer pool, size = 3.0G
+170314  9:02:24 [Note] InnoDB: Completed initialization of buffer pool
+170314  9:02:25 [Note] InnoDB: Highest supported file format is Barracuda.
+170314  9:02:25 [Note] InnoDB: The log sequence numbers 71392339522 and 71392339522 in ibdata files do not match the log sequence number 71409839825 in the ib_logfiles!
+170314  9:02:25 [Note] InnoDB: Database was not shutdown normally!
+170314  9:02:25 [Note] InnoDB: Starting crash recovery.
+170314  9:02:25 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170314  9:02:30 [Note] InnoDB: Restoring possible half-written data pages 
+170314  9:02:30 [Note] InnoDB: from the doublewrite buffer...
+170314  9:02:31 [Warning] No argument was provided to --log-bin and neither --log-basename or --log-bin-index where used;  This may cause repliction to break when this server acts as a master and has its hostname changed! Please use '--log-basename=server1' or '--log-bin=mysqld-bin' to avoid this problem.
+170314  9:02:31 [ERROR] mysqld: Can't lock aria control file '/var/lib/mysql/aria_log_control' for exclusive use, error: 11. Will retry for 30 seconds
+InnoDB: Last MySQL binlog file position 0 8254127, file name ./mysqld-bin.000175
+170314  9:02:31 [Note] InnoDB: 128 rollback segment(s) are active.
+170314  9:02:31 [Note] InnoDB: Waiting for purge to start
+170314  9:02:31 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-76.0 started; log sequence number 71409839825
+2017-03-14 09:02:31 7f375738a700 InnoDB: Loading buffer pool(s) from .//ib_buffer_pool
+170314  9:02:31 [Note] Recovering after a crash using mysqld-bin
+170314  9:02:33 [Note] Starting crash recovery...
+170314  9:02:33 [Note] Crash recovery finished.
+170314  9:02:33 [Note] Server socket created on IP: '0.0.0.0'.
+170314  9:02:34 [Warning] 'user' entry 'root@server1' ignored in --skip-name-resolve mode.
+170314  9:02:34 [Warning] 'user' entry '@server1' ignored in --skip-name-resolve mode.
+170314  9:02:35 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170314  9:02:35 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.23-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Source distribution
+170314  9:02:35 [Note] Event Scheduler: Purging the queue. 2 events
+170314  9:02:35 [Note] InnoDB: FTS optimize thread exiting.
+170314  9:02:35 [Note] InnoDB: Starting shutdown...
+2017-03-14 09:02:35 7f375738a700 InnoDB: Buffer pool(s) load completed at 170314  9:02:35
+2017-03-14 09:02:35 7f375738a700 InnoDB: Dumping buffer pool(s) to .//ib_buffer_pool
+2017-03-14 09:02:35 7f375738a700 InnoDB: Buffer pool(s) dump completed at 170314  9:02:35
+170314  9:02:37 [Note] InnoDB: Shutdown completed; log sequence number 71409840785
+170314  9:02:37 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2017-03-14 09:02:38 7f748cd89740 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+170314  9:02:38 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170314  9:02:38 [Note] InnoDB: The InnoDB memory heap is disabled
+170314  9:02:38 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170314  9:02:38 [Note] InnoDB: Memory barrier is not used
+170314  9:02:38 [Note] InnoDB: Compressed tables use zlib 1.2.8
+170314  9:02:38 [Note] InnoDB: Using Linux native AIO
+170314  9:02:38 [Note] InnoDB: Using CPU crc32 instructions
+170314  9:02:38 [Note] InnoDB: Initializing buffer pool, size = 3.0G
+170314  9:02:38 [Note] InnoDB: Completed initialization of buffer pool
+170314  9:02:38 [Note] InnoDB: Highest supported file format is Barracuda.
+170314  9:02:38 [Note] InnoDB: 128 rollback segment(s) are active.
+170314  9:02:38 [Note] InnoDB: Waiting for purge to start
+170314  9:02:38 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-76.0 started; log sequence number 71409840785
+2017-03-14 09:02:38 7f73a187d700 InnoDB: Loading buffer pool(s) from .//ib_buffer_pool
+170314  9:02:38 [Note] Server socket created on IP: '0.0.0.0'.
+170314  9:02:38 [Warning] 'user' entry 'root@server1' ignored in --skip-name-resolve mode.
+170314  9:02:38 [Warning] 'user' entry '@server1' ignored in --skip-name-resolve mode.
+170314  9:02:38 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.23-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Source distribution
+2017-03-14 09:02:38 7f73a187d700 InnoDB: Buffer pool(s) load completed at 170314  9:02:38
+170314  9:02:49 [ERROR] mysqld: Table './cpsmdb/jah_k2_items' is marked as crashed and should be repaired
+170314  9:02:49 [Warning] Checking table:   './cpsmdb/jah_k2_items'
+170314  9:02:50 [ERROR] mysqld: Table './cpsmdb/jah_k2_comments' is marked as crashed and should be repaired
+170314  9:02:50 [Warning] Checking table:   './cpsmdb/jah_k2_comments'
+170314  9:03:02 [ERROR] mysqld: Table './cpsmdb/jah_content' is marked as crashed and should be repaired
+170314  9:03:02 [Warning] Checking table:   './cpsmdb/jah_content'
+170314  9:03:32 [ERROR] mysqld: Table './cpsmdb/jah_redirect_links' is marked as crashed and should be repaired
+170314  9:03:32 [Warning] Checking table:   './cpsmdb/jah_redirect_links'
+170314  9:04:49 [ERROR] mysqld: Table './ebasic/answer_tbl' is marked as crashed and should be repaired
+170314  9:04:49 [Warning] Checking table:   './ebasic/answer_tbl'
+170314  9:04:52 [ERROR] mysqld: Table './ebasic/personnel_tbl' is marked as crashed and should be repaired
+170314  9:04:52 [Warning] Checking table:   './ebasic/personnel_tbl'
+170314  9:04:53 [ERROR] mysqld: Table './ebasic/result_tbl' is marked as crashed and should be repaired
+170314  9:04:53 [Warning] Checking table:   './ebasic/result_tbl'
+170314  9:05:02 [ERROR] mysqld: Table './ela_main/result_tbl' is marked as crashed and should be repaired
+170314  9:05:02 [Warning] Checking table:   './ela_main/result_tbl'
+170314  9:05:40 [ERROR] mysqld: Table './ela_main/answer_tbl' is marked as crashed and should be repaired
+170314  9:05:40 [Warning] Checking table:   './ela_main/answer_tbl'
+170314  9:06:10 [ERROR] mysqld: Table './cpsmdb/jah_phocadownload' is marked as crashed and should be repaired
+170314  9:06:10 [Warning] Checking table:   './cpsmdb/jah_phocadownload'
+170314  9:06:50 [ERROR] mysqld: Table './ela_main/personnel_tbl' is marked as crashed and should be repaired
+170314  9:06:50 [Warning] Checking table:   './ela_main/personnel_tbl'
+170314  9:09:56 [ERROR] mysqld: Table './cpsmdb/jah_phocadownload_user_stat' is marked as crashed and should be repaired
+170314  9:09:56 [Warning] Checking table:   './cpsmdb/jah_phocadownload_user_stat'
+170314 10:16:05 [Warning] No argument was provided to --log-bin and neither --log-basename or --log-bin-index where used;  This may cause repliction to break when this server acts as a master and has its hostname changed! Please use '--log-basename=server1' or '--log-bin=mysqld-bin' to avoid this problem.
+170314 10:16:05 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170314 10:16:05 [Note] InnoDB: The InnoDB memory heap is disabled
+170314 10:16:05 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170314 10:16:05 [Note] InnoDB: Memory barrier is not used
+170314 10:16:05 [Note] InnoDB: Compressed tables use zlib 1.2.8
+170314 10:16:05 [Note] InnoDB: Using Linux native AIO
+170314 10:16:05 [Note] InnoDB: Using CPU crc32 instructions
+170314 10:16:05 [Note] InnoDB: Initializing buffer pool, size = 3.0G
+170314 10:16:05 [Note] InnoDB: Completed initialization of buffer pool
+170314 10:16:05 [Note] InnoDB: Highest supported file format is Barracuda.
+170314 10:16:05 [Note] InnoDB: Log scan progressed past the checkpoint lsn 71410478177
+170314 10:16:05 [Note] InnoDB: Database was not shutdown normally!
+170314 10:16:05 [Note] InnoDB: Starting crash recovery.
+170314 10:16:05 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170314 10:16:05 [Note] InnoDB: Restoring possible half-written data pages 
+170314 10:16:05 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 71410489535
+170314 10:16:06 [Note] InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percent: 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+InnoDB: Last MySQL binlog file position 0 336679, file name ./mysqld-bin.000177
+170314 10:16:06 [Note] InnoDB: 128 rollback segment(s) are active.
+170314 10:16:06 [Note] InnoDB: Waiting for purge to start
+170314 10:16:06 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-76.0 started; log sequence number 71410489535
+2017-03-14 10:16:06 7fcb808e2700 InnoDB: Loading buffer pool(s) from .//ib_buffer_pool
+170314 10:16:06 [Note] Recovering after a crash using mysqld-bin
+170314 10:16:06 [Note] Starting crash recovery...
+170314 10:16:06 [Note] Crash recovery finished.
+170314 10:16:06 [Note] Server socket created on IP: '0.0.0.0'.
+170314 10:16:06 [Warning] 'user' entry 'root@server1' ignored in --skip-name-resolve mode.
+170314 10:16:06 [Warning] 'user' entry '@server1' ignored in --skip-name-resolve mode.
+170314 10:16:06 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.23-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Source distribution
+2017-03-14 10:16:06 7fcb808e2700 InnoDB: Buffer pool(s) load completed at 170314 10:16:06
+170314 10:16:21 [ERROR] mysqld: Table './cpsmdb/jah_content' is marked as crashed and should be repaired
+170314 10:16:21 [Warning] Checking table:   './cpsmdb/jah_content'
+170314 10:17:39 [ERROR] mysqld: Table './cpsmdb/jah_k2_items' is marked as crashed and should be repaired
+170314 10:17:39 [Warning] Checking table:   './cpsmdb/jah_k2_items'
+170314 10:17:39 [ERROR] mysqld: Table './cpsmdb/jah_k2_comments' is marked as crashed and should be repaired
+170314 10:17:39 [Warning] Checking table:   './cpsmdb/jah_k2_comments'
+170314 10:19:22 [ERROR] mysqld: Table './ela_main/personnel_tbl' is marked as crashed and should be repaired
+170314 10:19:22 [Warning] Checking table:   './ela_main/personnel_tbl'
+170314 10:19:26 [ERROR] mysqld: Table './cpsmdb/jah_redirect_links' is marked as crashed and should be repaired
+170314 10:19:26 [Warning] Checking table:   './cpsmdb/jah_redirect_links'
+170314 10:22:15 [ERROR] mysqld: Table './cpsmdb/jah_phocadownload' is marked as crashed and should be repaired
+170314 10:22:15 [Warning] Checking table:   './cpsmdb/jah_phocadownload'
+170314 10:24:35 [ERROR] mysqld: Table './ela_main/result_tbl' is marked as crashed and should be repaired
+170314 10:24:35 [Warning] Checking table:   './ela_main/result_tbl'
+170314 10:26:00 [ERROR] mysqld: Table './cpsmdb/jah_phocadownload_user_stat' is marked as crashed and should be repaired
+170314 10:26:00 [Warning] Checking table:   './cpsmdb/jah_phocadownload_user_stat'
+170314 10:33:36 [ERROR] mysqld: Table './ela_main/answer_tbl' is marked as crashed and should be repaired
+170314 10:33:36 [Warning] Checking table:   './ela_main/answer_tbl'
+170314 10:35:24 [ERROR] mysqld: Table './cpsmdb/jah_jsecurelog' is marked as crashed and should be repaired
+170314 10:35:24 [Warning] Checking table:   './cpsmdb/jah_jsecurelog'
+170314 10:50:08 [Warning] No argument was provided to --log-bin and neither --log-basename or --log-bin-index where used;  This may cause repliction to break when this server acts as a master and has its hostname changed! Please use '--log-basename=server1' or '--log-bin=mysqld-bin' to avoid this problem.
+170314 10:50:08 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170314 10:50:08 [Note] InnoDB: The InnoDB memory heap is disabled
+170314 10:50:08 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170314 10:50:08 [Note] InnoDB: Memory barrier is not used
+170314 10:50:08 [Note] InnoDB: Compressed tables use zlib 1.2.8
+170314 10:50:08 [Note] InnoDB: Using Linux native AIO
+170314 10:50:08 [Note] InnoDB: Using CPU crc32 instructions
+170314 10:50:08 [Note] InnoDB: Initializing buffer pool, size = 3.0G
+170314 10:50:08 [Note] InnoDB: Completed initialization of buffer pool
+170314 10:50:08 [Note] InnoDB: Highest supported file format is Barracuda.
+170314 10:50:08 [Note] InnoDB: Log scan progressed past the checkpoint lsn 71411519432
+170314 10:50:08 [Note] InnoDB: Database was not shutdown normally!
+170314 10:50:08 [Note] InnoDB: Starting crash recovery.
+170314 10:50:08 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170314 10:50:08 [Note] InnoDB: Restoring possible half-written data pages 
+170314 10:50:08 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 71411521257
+170314 10:50:08 [Note] InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percent: 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+InnoDB: Last MySQL binlog file position 0 434375, file name ./mysqld-bin.000178
+170314 10:50:09 [Note] InnoDB: 128 rollback segment(s) are active.
+170314 10:50:09 [Note] InnoDB: Waiting for purge to start
+170314 10:50:09 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-76.0 started; log sequence number 71411521257
+2017-03-14 10:50:09 7fe3420e2700 InnoDB: Loading buffer pool(s) from .//ib_buffer_pool
+170314 10:50:09 [Note] Recovering after a crash using mysqld-bin
+170314 10:50:09 [Note] Starting crash recovery...
+170314 10:50:09 [Note] Crash recovery finished.
+170314 10:50:09 [Note] Server socket created on IP: '0.0.0.0'.
+170314 10:50:09 [Warning] 'user' entry 'root@server1' ignored in --skip-name-resolve mode.
+170314 10:50:09 [Warning] 'user' entry '@server1' ignored in --skip-name-resolve mode.
+170314 10:50:09 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.23-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Source distribution
+2017-03-14 10:50:09 7fe3420e2700 InnoDB: Buffer pool(s) load completed at 170314 10:50:09
+170314 10:50:11 [ERROR] mysqld: Table './cpsmdb/jah_content' is marked as crashed and should be repaired
+170314 10:50:11 [Warning] Checking table:   './cpsmdb/jah_content'
+170314 10:50:33 [ERROR] mysqld: Table './cpsmdb/jah_k2_items' is marked as crashed and should be repaired
+170314 10:50:33 [Warning] Checking table:   './cpsmdb/jah_k2_items'
+170314 10:50:33 [ERROR] mysqld: Table './cpsmdb/jah_k2_comments' is marked as crashed and should be repaired
+170314 10:50:33 [Warning] Checking table:   './cpsmdb/jah_k2_comments'
+170314 10:51:25 [ERROR] mysqld: Table './cpsmdb/jah_redirect_links' is marked as crashed and should be repaired
+170314 10:51:25 [Warning] Checking table:   './cpsmdb/jah_redirect_links'
+170314 10:51:37 [ERROR] mysqld: Table './cpsmdb/jah_phocadownload' is marked as crashed and should be repaired
+170314 10:51:37 [Warning] Checking table:   './cpsmdb/jah_phocadownload'
+170314 10:51:59 [ERROR] mysqld: Table './cpsmdb/jah_phocadownload_user_stat' is marked as crashed and should be repaired
+170314 10:51:59 [Warning] Checking table:   './cpsmdb/jah_phocadownload_user_stat'
+170314 10:52:02 [ERROR] mysqld: Table './cpsmdb/jah_jsecurelog' is marked as crashed and should be repaired
+170314 10:52:02 [Warning] Checking table:   './cpsmdb/jah_jsecurelog'
+170314 10:56:44 [Warning] No argument was provided to --log-bin and neither --log-basename or --log-bin-index where used;  This may cause repliction to break when this server acts as a master and has its hostname changed! Please use '--log-basename=server1' or '--log-bin=mysqld-bin' to avoid this problem.
+170314 10:56:44 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+170314 10:56:44 [Note] InnoDB: The InnoDB memory heap is disabled
+170314 10:56:44 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170314 10:56:44 [Note] InnoDB: Memory barrier is not used
+170314 10:56:44 [Note] InnoDB: Compressed tables use zlib 1.2.8
+170314 10:56:44 [Note] InnoDB: Using Linux native AIO
+170314 10:56:44 [Note] InnoDB: Using CPU crc32 instructions
+170314 10:56:44 [Note] InnoDB: Initializing buffer pool, size = 3.0G
+170314 10:56:44 [Note] InnoDB: Completed initialization of buffer pool
+170314 10:56:44 [Note] InnoDB: Highest supported file format is Barracuda.
+170314 10:56:44 [Note] InnoDB: The log sequence numbers 71409840785 and 71409840785 in ibdata files do not match the log sequence number 71411696805 in the ib_logfiles!
+170314 10:56:44 [Note] InnoDB: Database was not shutdown normally!
+170314 10:56:44 [Note] InnoDB: Starting crash recovery.
+170314 10:56:44 [Note] InnoDB: Reading tablespace information from the .ibd files...
+170314 10:56:44 [Note] InnoDB: Restoring possible half-written data pages 
+170314 10:56:44 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 82655, file name ./mysqld-bin.000179
+170314 10:56:45 [Note] InnoDB: 128 rollback segment(s) are active.
+170314 10:56:45 [Note] InnoDB: Waiting for purge to start
+170314 10:56:45 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-76.0 started; log sequence number 71411696805
+2017-03-14 10:56:45 7ff395a82700 InnoDB: Loading buffer pool(s) from .//ib_buffer_pool
+170314 10:56:45 [Note] Recovering after a crash using mysqld-bin
+170314 10:56:45 [Note] Starting crash recovery...
+170314 10:56:45 [Note] Crash recovery finished.
+170314 10:56:45 [Note] Server socket created on IP: '0.0.0.0'.
+170314 10:56:45 [Warning] 'user' entry 'root@server1' ignored in --skip-name-resolve mode.
+170314 10:56:45 [Warning] 'user' entry '@server1' ignored in --skip-name-resolve mode.
+170314 10:56:45 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '10.0.23-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Source distribution
+2017-03-14 10:56:45 7ff395a82700 InnoDB: Buffer pool(s) load completed at 170314 10:56:45
+170314 10:57:29 [ERROR] mysqld: Table './cpsmdb/jah_k2_comments' is marked as crashed and should be repaired
+170314 10:57:29 [Warning] Checking table:   './cpsmdb/jah_k2_comments'
+170314 10:57:34 [ERROR] mysqld: Table './cpsmdb/jah_phocadownload_user_stat' is marked as crashed and should be repaired
+170314 10:57:34 [Warning] Checking table:   './cpsmdb/jah_phocadownload_user_stat'
+170314 10:57:35 [ERROR] mysqld: Table './cpsmdb/jah_content' is marked as crashed and should be repaired
+170314 10:57:35 [Warning] Checking table:   './cpsmdb/jah_content'
+170314 11:00:13 [ERROR] mysqld: Table './ela_main/result_tbl' is marked as crashed and should be repaired
+170314 11:00:13 [Warning] Checking table:   './ela_main/result_tbl'
+170314 11:01:40 [ERROR] mysqld: Table './ela_main/answer_tbl' is marked as crashed and should be repaired
+170314 11:01:40 [Warning] Checking table:   './ela_main/answer_tbl'
